@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  grpcbackend1:
+    build: ./
+    container_name: grpcbackend1
+    restart: always
+    ports:
+      - "80:80"
